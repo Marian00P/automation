@@ -4,8 +4,8 @@
     "suites_to_run": ["other_suite.xml", "Other Job Name On TestProject"]
   },
   {
-    "title": "sso_suite",
-    "suites_to_run": ["login_web_suite.xml", "SSO Bla Bla"]
+    "title": "mariano_suite",
+    "suites_to_run": ["mariano_suite.xml"]
   },
   {
     "title": "other_suite",
