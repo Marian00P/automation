@@ -1,5 +1,9 @@
 [
   {
+    "title": "sanity_test_suite",
+    "suites_to_run": ["other_suite.xml", "Other Job Name On TestProject"]
+  },
+  {
     "title": "sso_suite",
     "suites_to_run": ["login_web_suite.xml", "SSO Bla Bla"]
   },
