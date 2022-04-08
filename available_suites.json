@@ -8,7 +8,7 @@
     "suites_to_run": ["mariano_suite.xml"]
   },
   {
-    "title": "other_suite",
-    "suites_to_run": ["other_suite.xml", "Other Job Name On TestProject"]
+    "title": "other_test_suite",
+    "suites_to_run": ["Other Job Name On TestProject"]
   }
 ]
