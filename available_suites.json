@@ -8,7 +8,7 @@
     "suites_to_run": ["mariano_suite.xml"]
   },
   {
-    "title": "Aco logs tests",
+    "title": "aCO_logs_tests",
     "suites_to_run": ["aco_logs_test"]
   }
 ]
