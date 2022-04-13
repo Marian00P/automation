@@ -4,23 +4,19 @@
     "suites_to_run": ["sanity_test_suite.xml"]
   },
   {
-    "title": "sso_test_suite",
-    "suites_to_run": ["server_sso_config_suite.xml"]
+    "title": "sso_adfs_test_suite",
+    "suites_to_run": ["server_sso_config_suite.xml", "sso_adfs_login_logout_webconsole"]
   }, 
   {
-    "title": "license_and_version_suite",
+    "title": "sso_okta_test_suite",
+    "suites_to_run": ["server_sso_config_suite.xml", "sso_okta_login_logout_webconsole"]
+  }, 
+  {
+    "title": "add_license_and_check_version_suite",
     "suites_to_run": ["add_license_and_check_version_Suite.xml"]
   },
   {
     "title": "logs_test_suite",
     "suites_to_run": ["base_config_for_logs_feature_suite.xml", "aco_logs_test"]
-  },
-  {
-    "title": "mariano_suite",
-    "suites_to_run": ["mariano_suite.xml"]
-  },
-  {
-    "title": "aCO_logs_tests",
-    "suites_to_run": ["aco_logs_test"]
   }
 ]
